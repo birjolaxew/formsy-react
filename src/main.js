@@ -261,7 +261,7 @@ Formsy.Form = createReactClass({
         validationResults.errors.push(validation);
         validationResults.failed.push(component.validate);
       } else if (!validation) {
-        results.failed.push(component.validate);
+        validationResults.failed.push(component.validate);
       }
     }
 
